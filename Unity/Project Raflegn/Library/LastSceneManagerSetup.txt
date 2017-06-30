@@ -1,5 +1,4 @@
 sceneSetups:
-- path: C:/Users/AceSk_000/Documents/GitHub/Project-Raflegn/Unity/project Rafleign
-    proto/Assets/Scene 1.unity
+- path: Assets/Scene/Main.unity
   isLoaded: 1
   isActive: 1
