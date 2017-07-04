@@ -1,0 +1,237 @@
+fileFormatVersion: 2
+guid: ef57605914b21df4c83862f942acc404
+timeCreated: 1499168936
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: barrelFront
+    100002: barrelMid
+    100004: DoorL
+    100006: DoorR
+    100008: //RootNode
+    100010: Gun assembly
+    100012: Gun DoorsL
+    100014: Gun DoorsR
+    100016: GunBase
+    100018: Tower
+    100020: turret
+    400000: barrelFront
+    400002: barrelMid
+    400004: DoorL
+    400006: DoorR
+    400008: //RootNode
+    400010: Gun assembly
+    400012: Gun DoorsL
+    400014: Gun DoorsR
+    400016: GunBase
+    400018: Tower
+    400020: turret
+    2300000: barrelFront
+    2300002: barrelMid
+    2300004: DoorL
+    2300006: DoorR
+    2300008: //RootNode
+    2300010: Gun assembly
+    2300012: Gun DoorsL
+    2300014: Gun DoorsR
+    2300016: GunBase
+    2300018: Tower
+    2300020: turret
+    3300000: barrelFront
+    3300002: barrelMid
+    3300004: DoorL
+    3300006: DoorR
+    3300008: //RootNode
+    3300010: Gun assembly
+    3300012: Gun DoorsL
+    3300014: Gun DoorsR
+    3300016: GunBase
+    3300018: Tower
+    3300020: turret
+    4300000: FastHull
+    4300002: Tower
+    4300004: DoorL
+    4300006: DoorR
+    4300008: GunBase
+    4300010: turret
+    4300012: Gun assembly
+    4300014: barrelMid
+    4300016: barrelFront
+    4300018: Gun DoorsL
+    4300020: Gun DoorsR
+    7400000: DoorL|barrelFrontAction.001
+    7400002: DoorL|barrelMidAction.001
+    7400004: DoorL|CameraAction
+    7400006: DoorL|DoorLAction
+    7400008: DoorL|DoorRAction
+    7400010: DoorL|Gun assemblyAction
+    7400012: DoorL|Gun DoorsLAction
+    7400014: DoorL|Gun DoorsRAction
+    7400016: DoorL|GunBaseAction
+    7400018: DoorL|Player heightAction
+    7400020: DoorL|turretAction
+    7400022: DoorR|barrelFrontAction.001
+    7400024: DoorR|barrelMidAction.001
+    7400026: DoorR|CameraAction
+    7400028: DoorR|DoorLAction
+    7400030: DoorR|DoorRAction
+    7400032: DoorR|Gun assemblyAction
+    7400034: DoorR|Gun DoorsLAction
+    7400036: DoorR|Gun DoorsRAction
+    7400038: DoorR|GunBaseAction
+    7400040: DoorR|Player heightAction
+    7400042: DoorR|turretAction
+    7400044: GunBase|barrelFrontAction.001
+    7400046: GunBase|barrelMidAction.001
+    7400048: GunBase|CameraAction
+    7400050: GunBase|DoorLAction
+    7400052: GunBase|DoorRAction
+    7400054: GunBase|Gun assemblyAction
+    7400056: GunBase|Gun DoorsLAction
+    7400058: GunBase|Gun DoorsRAction
+    7400060: GunBase|GunBaseAction
+    7400062: GunBase|Player heightAction
+    7400064: GunBase|turretAction
+    7400066: turret|barrelFrontAction.001
+    7400068: turret|barrelMidAction.001
+    7400070: turret|CameraAction
+    7400072: turret|DoorLAction
+    7400074: turret|DoorRAction
+    7400076: turret|Gun assemblyAction
+    7400078: turret|Gun DoorsLAction
+    7400080: turret|Gun DoorsRAction
+    7400082: turret|GunBaseAction
+    7400084: turret|Player heightAction
+    7400086: turret|turretAction
+    7400088: Gun assembly|barrelFrontAction.001
+    7400090: Gun assembly|barrelMidAction.001
+    7400092: Gun assembly|CameraAction
+    7400094: Gun assembly|DoorLAction
+    7400096: Gun assembly|DoorRAction
+    7400098: Gun assembly|Gun assemblyAction
+    7400100: Gun assembly|Gun DoorsLAction
+    7400102: Gun assembly|Gun DoorsRAction
+    7400104: Gun assembly|GunBaseAction
+    7400106: Gun assembly|Player heightAction
+    7400108: Gun assembly|turretAction
+    7400110: barrelMid|barrelFrontAction.001
+    7400112: barrelMid|barrelMidAction.001
+    7400114: barrelMid|CameraAction
+    7400116: barrelMid|DoorLAction
+    7400118: barrelMid|DoorRAction
+    7400120: barrelMid|Gun assemblyAction
+    7400122: barrelMid|Gun DoorsLAction
+    7400124: barrelMid|Gun DoorsRAction
+    7400126: barrelMid|GunBaseAction
+    7400128: barrelMid|Player heightAction
+    7400130: barrelMid|turretAction
+    7400132: barrelFront|barrelFrontAction.001
+    7400134: barrelFront|barrelMidAction.001
+    7400136: barrelFront|CameraAction
+    7400138: barrelFront|DoorLAction
+    7400140: barrelFront|DoorRAction
+    7400142: barrelFront|Gun assemblyAction
+    7400144: barrelFront|Gun DoorsLAction
+    7400146: barrelFront|Gun DoorsRAction
+    7400148: barrelFront|GunBaseAction
+    7400150: barrelFront|Player heightAction
+    7400152: barrelFront|turretAction
+    7400154: Gun DoorsL|barrelFrontAction.001
+    7400156: Gun DoorsL|barrelMidAction.001
+    7400158: Gun DoorsL|CameraAction
+    7400160: Gun DoorsL|DoorLAction
+    7400162: Gun DoorsL|DoorRAction
+    7400164: Gun DoorsL|Gun assemblyAction
+    7400166: Gun DoorsL|Gun DoorsLAction
+    7400168: Gun DoorsL|Gun DoorsRAction
+    7400170: Gun DoorsL|GunBaseAction
+    7400172: Gun DoorsL|Player heightAction
+    7400174: Gun DoorsL|turretAction
+    7400176: Gun DoorsR|barrelFrontAction.001
+    7400178: Gun DoorsR|barrelMidAction.001
+    7400180: Gun DoorsR|CameraAction
+    7400182: Gun DoorsR|DoorLAction
+    7400184: Gun DoorsR|DoorRAction
+    7400186: Gun DoorsR|Gun assemblyAction
+    7400188: Gun DoorsR|Gun DoorsLAction
+    7400190: Gun DoorsR|Gun DoorsRAction
+    7400192: Gun DoorsR|GunBaseAction
+    7400194: Gun DoorsR|Player heightAction
+    7400196: Gun DoorsR|turretAction
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

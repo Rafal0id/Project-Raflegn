@@ -41,6 +41,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private float m_NextStep;
         private bool m_Jumping;
         private AudioSource m_AudioSource;
+		private bool m_Crouch;
 
         // Use this for initialization
         private void Start()
@@ -80,6 +81,11 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 m_MoveDir.y = 0f;
             }
 
+			if (m_Crouch) 
+			{
+				m_Crouch = CrossPlatformInputManager.GetButtonDown ("Crouch");
+			}
+				
             m_PreviouslyGrounded = m_CharacterController.isGrounded;
         }
 
@@ -120,6 +126,11 @@ namespace UnityStandardAssets.Characters.FirstPerson
                     m_Jump = false;
                     m_Jumping = true;
                 }
+
+				while (m_Crouch) 
+				{
+					transform.localScale += new Vector3 (0, 0.5f, 0);
+				}
             }
             else
             {
